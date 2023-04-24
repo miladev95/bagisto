@@ -1,7 +1,7 @@
 #!/bin/bash
 
 output_message() {
-  printf ">> %s\n" "$1"
+  printf "%s\n" "$1"
 }
 output_message "### start preparation ###"
 
